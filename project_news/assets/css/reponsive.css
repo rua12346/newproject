@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+  .main_header .main_list_menu {
+    display: none;
+  }
+  .main_header {
+    justify-content: center;
+  }
+  .main_bullert {
+    display: block;
+  }
+  .menu_mobile {
+    display: block;
+  }
+  .overlay_menu {
+    display: block;
+  }
+  .row_s_top,
+  .row_ss_bottom {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .row_s_top .box_left,
+  .row_ss_bottom .box_left {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row_s_top .box_right,
+  .row_ss_bottom .box_right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .list_items a {
+    flex-direction: row;
+  }
+  .list_items a .thunder {
+    display: block;
+    width: 240px;
+  }
+  .list_items a .infor {
+    width: calc(100% - 240px);
+    padding-left: 10px;
+  }
+  .list_items a .infor .title {
+    font-size: 1rem;
+  }
+  .list_items a .infor .destination {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .row_s_top .box_right,
+  .row_ss_bottom .box_right {
+    width: 100%;
+  }
+  .box_many_read {
+    background-color: #e4e4e4;
+  }
+  .box_getside_content p {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .box_getside.list_hot_news
+    .box_getside__list
+    .box_getside__list_news
+    .box_getside__list_items {
+    font-size: 1rem;
+    line-height: 18px;
+    text-align: justify;
+  }
+  .row_s_top .box_right,
+  .row_ss_bottom .box_right,
+  .row_s_top .box_left,
+  .row_ss_bottom .box_left {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+}
+@media screen and (max-width: 480px) {
+  .list_items a {
+    flex-direction: column;
+  }
+  .list_items a .thunder,
+  .list_items a .infor {
+    width: 100%;
+  }
+  .list_items a .infor {
+    padding-left: 0;
+  }
+  .list_article_news .article_news_items {
+    flex-direction: column;
+  }
+  .list_article_news .article_news_items .news_thuno {
+    width: 100%;
+    height: 250px;
+  }
+  .list_article_news .article_news_items .news_infor {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .read_more {
+    margin-bottom: 15px;
+  }
+  .row_s_top .box_right {
+    margin-top: 15px;
+  }
+}
